@@ -26,9 +26,12 @@ Glyph bounding box output is of the form:
 
     { "x" : startX, "y" : startY, "w" : width, "h" : height },
 
+Prerequisite:
+
+    sudo apt-get install libtiff5-dev
 
 To Compile:
-
+    
     make all
 
 or
